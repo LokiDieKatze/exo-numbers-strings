@@ -6,6 +6,7 @@ let letterI = 'i'
 let letterO = 'o'
 let letterU = 'u'
 let letterY = 'y'
+//on peut rajouter aussi é, è, à, ï,, etc.
 
 let counter = 0
 
@@ -15,3 +16,5 @@ for (let i = 0; i < msg.length; i++) {
   }
 }
 console.log(`Il y a ${counter} voyelles dans ce texte`)
+/* pour afficher le comptage voyelle par voyelle, on peu faire if else if else, et ainsi mettre chaque lettre dans un if, et dans else ne rien mettre,
+cela indique de ne rien faire lorsqu'on rencontre une consonne*/
